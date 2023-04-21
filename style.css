@@ -118,26 +118,24 @@ body {
 
 .rodape {
     text-align: center;
-    margin: 5em 0;
+    margin: 5em 3em;
 }
 
 .rodape__lista {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin: 5em 0;
+    margin-top: 1em;
 }
 
-.link {
-    font-size: 16px;
+.lista__link a{
     text-decoration: none;
     color: var(--branco-principal);
-    padding: 1em;
+    margin-left: 1em;
 }
 
 .rodape__texto{
     font-size: 14px;
     color: var(--cinza-secundario);
-    padding: 1em;
-    margin: 0 4em;
+    margin: 1em 0;
 }
